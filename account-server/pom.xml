@@ -11,12 +11,20 @@
     <name>account-server</name>
     <description>Demo project for Spring Boot</description>
     <dependencies>
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>guyu.test</groupId>
+            <artifactId>account-domain</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>guyu.test</groupId>
+            <artifactId>account-api</artifactId>
+        </dependency>
     </dependencies>
 
     <properties>
