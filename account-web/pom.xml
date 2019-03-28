@@ -19,7 +19,6 @@
         <dependency>
             <groupId>guyu.test</groupId>
             <artifactId>account-server</artifactId>
-            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 
