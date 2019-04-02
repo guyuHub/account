@@ -8,7 +8,7 @@ public class AccountFacedImpl implements AccountFaced{
 
     public AccountDTO queryAccountByAccountId(Long accountId) {
         Account account = new Account();
-        account.
-        return null;
+
+        return account;
     }
 }

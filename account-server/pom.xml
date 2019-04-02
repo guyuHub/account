@@ -25,6 +25,11 @@
             <groupId>guyu.test</groupId>
             <artifactId>account-api</artifactId>
         </dependency>
+
+        <dependency>
+            <groupId>guyu.test</groupId>
+            <artifactId>account-api</artifactId>
+        </dependency>
     </dependencies>
 
     <properties>
