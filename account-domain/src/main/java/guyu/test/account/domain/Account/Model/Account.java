@@ -1,8 +1,12 @@
 package guyu.test.account.domain.Account.Model;
 
+import lombok.Getter;
+import lombok.Setter;
+
 import java.util.Date;
 
-
+@Getter
+@Setter
 public class Account {
     /**
      * 账户ID

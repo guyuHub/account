@@ -1,5 +1,7 @@
 package guyu.test.account.converter;
 
+import guyu.test.account.domain.Account.Model.Account;
+import guyu.test.model.AccountDTO;
 import org.mapstruct.Mapper;
 
 /**
@@ -7,5 +9,5 @@ import org.mapstruct.Mapper;
  * @date 2019/4/2
  */
 @Mapper(componentModel = "spring")
-public interface AccountDTOConverter {
+public interface AccountDTOConverter extends BaseConverter<AccountDTO, Account>{
 }

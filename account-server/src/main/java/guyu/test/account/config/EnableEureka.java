@@ -1,11 +1,12 @@
 package guyu.test.account.config;
 
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.PostConstruct;
 
-@EnableEurekaServer
+@EnableEurekaClient
 @Component
 public class EnableEureka {
     @PostConstruct
